@@ -523,13 +523,9 @@ body {
     color: var(--primary-color);
 }
 
-footer .legal {
-    font-size: 0.9rem;
-    color: black !important;
-    margin-top: 0.5rem;
-}
 
-footer .legal a {
+
+.legal a {
     color: black !important;
     text-decoration: none;
 }
