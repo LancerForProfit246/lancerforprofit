@@ -526,7 +526,7 @@ body {
 
 
 .legal a {
-    color: black !important;
+    color: var(--accent-color);
     text-decoration: none;
 }
 
