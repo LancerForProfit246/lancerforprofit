@@ -522,16 +522,11 @@ body {
 }
 
 /* Footer */
-.legal {
-    font-size: 0.9rem;
-    color: var(--accent-color);
-    margin-top: 15rem;
-    text-decoration: none;
-}
 
 .legal a {
     color: var(--accent-color);
     text-decoration: none;
+    font-size: larger ;
 }
 
 /* Animations */
