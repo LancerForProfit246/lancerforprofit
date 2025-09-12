@@ -532,7 +532,7 @@ body {
 }
 
 .legal a {
-    color: var(--accent-color);
+    color: black;
     text-decoration: none;
 }
 /* Animations */
