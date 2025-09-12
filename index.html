@@ -3,102 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Modern Portfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <img src="lfp.png" alt="Logo" class="logo">
-            </div>
-            <ul class="nav-menu">
-                <li><a href="index.html" class="nav-link active">Home</a></li>
-                <li><a href="about.html" class="nav-link">About</a></li>
-                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-                <li><a href="contact.html" class="nav-link">Contact</a></li>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="nav-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Creative <br> Developer</h1>
+            <p>
+                Crafting digital experiences that inspire and engage. 
+                Specializing in modern web development with a focus on 
+                innovative design and seamless user experiences.
+            </p>
+            <div class="cta-buttons">
+                <a href="#portfolio" class="btn">View Work</a>
+                <a href="#contact" class="btn">Get In Touch</a>
             </div>
         </div>
-    </nav>
+    </section>
 
-    <main>
-        <section class="hero">
-            <div class="hero-background"></div>
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1 class="hero-title">
-                        <span class="title-line">Creative</span>
-                        <span class="title-line">Developer</span>
-                    </h1>
-                    <p class="hero-subtitle">
-                        Crafting digital experiences that inspire and engage. 
-                        Specializing in modern web development with a focus on 
-                        innovative design and seamless user experiences.
-                    </p>
-                    <div class="hero-buttons">
-                        <a href="portfolio.html" class="btn btn-primary">View Work</a>
-                        <a href="contact.html" class="btn btn-secondary">Get In Touch</a>
-                    </div>
-                </div>
-                <div class="hero-visual">
-                    <div class="floating-elements">
-                        <div class="floating-element element-1"></div>
-                        <div class="floating-element element-2"></div>
-                        <div class="floating-element element-3"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="scroll-indicator">
-                <div class="scroll-arrow"></div>
-            </div>
-        </section>
-
-        <section class="features">
-            <div class="container">
-                <div class="features-grid">
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <i class="fas fa-paint-brush"></i>
-                        </div>
-                        <h3>Modern Design</h3>
-                        <p>Clean, contemporary aesthetics that adapt to any device and screen size.</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <i class="fas fa-rocket"></i>
-                        </div>
-                        <h3>Performance</h3>
-                        <p>Optimized for speed with efficient code and modern development practices.</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <i class="fas fa-lightbulb"></i>
-                        </div>
-                        <h3>Innovation</h3>
-                        <p>Cutting-edge solutions that push the boundaries of what's possible on the web.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+    <section id="features">
+        <div class="feature">
+            <img src="design-icon.png" alt="Design Icon">
+            <h3>Modern Design</h3>
+            <p>Clean, contemporary aesthetics that adapt to any device and screen size.</p>
+        </div>
+        <div class="feature">
+            <img src="performance-icon.png" alt="Performance Icon">
+            <h3>Performance</h3>
+            <p>Optimized for speed with efficient code and modern development practices.</p>
+        </div>
+        <div class="feature">
+            <img src="innovation-icon.png" alt="Innovation Icon">
+            <h3>Innovation</h3>
+            <p>Cutting-edge solutions that push the boundaries of what's possible on the web.</p>
+        </div>
+    </section>
 
     <footer>
-        <p>&copy; 2025 LancerForProfit. All rights reserved.</p>
-        <div class="contact-info">
-            <p>Email: info@lancerforprofit.com | Phone: (123) 456-7890</p>
-            <p><a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-conditions.html">Terms & Conditions</a></p>
-        </div>
+        <p><a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-and-conditions.html">Terms and Conditions</a></p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
