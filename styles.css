@@ -521,6 +521,19 @@ body {
     color: var(--primary-color);
 }
 
+/* Footer */
+.legal {
+    font-size: 0.9rem;
+    color: var(--accent-color);
+    margin-top: 0.5rem;
+    text-decoration: none;
+}
+
+.legal a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
 /* Animations */
 @keyframes slideInUp {
     to {
